@@ -6,6 +6,7 @@ pipeline {
             steps {
                 sh 'python --version'
                 sh 'pwd'
+                sh 'python -m tests.affin_test'
             }
         }
     }
