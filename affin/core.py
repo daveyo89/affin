@@ -1,15 +1,15 @@
 class Affin:
     def __init__(self):
-        self.letters = "aábcdeéfghiíjklmnoóöőpqrstuúüűvwxyzAÁBCDEÉFGHIÍJKLMNOÓÖŐPQRSTUÚÜŰVWXYZ" \
-                       "+-,?!.:&@#><()=/%\"'’[]$_* "
+        self.letters = "aábcdeéfghiíjklmnoóöőpqrstuúüűvwxyzAÁBCDEÉFGHIÍJKLMNOÓÖŐPQRSTUÚÜŰVWXYZ0123456789" \
+                       "+,?!.:&@#><()=/%\"'’[]$_*-– "
         self.length = len(self.letters)
 
     @staticmethod
-    def get_valid_numbers() -> tuple:
+    def get_valid_numbers(text) -> tuple:
         af = Affin()
         return tuple((x, y) for x in range(1, 100) for y in range(1, 100) if
-                     af.decode((x, y), af.encode((x, y), "lets test if the decoder works properly!"))
-                     == "lets test if the decoder works properly!")
+                     af.decode((x, y), af.encode((x, y), text))
+                     == text)
 
     def encode(self, k: (int, int), text: str) -> str:
         return "".join([
