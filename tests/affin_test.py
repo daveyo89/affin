@@ -13,6 +13,7 @@ class AffinTest(unittest.TestCase):
         self.assertEqual(text, decoded, msg=f"{text} -> {encoded} -> {decoded}")
         print(encoded)
         print(decoded)
+        print("Test jenkins trigger")
 
 
 if __name__ == '__main__':
