@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="pytest" skipped="0" tests="1" time="1.672"><testcase classname="tests.affin_test.AffinTest" file="tests\affin_test.py" line="5" name="test_long_encode" time="1.608"><system-out>WvYwywÖv_cbcüPNIv*$$_üÉDvUÁPFPÁPPvHwJwAwÉűCÖwJzÉwvPÁIÁUFVÉLŐvÖwGVCÉIÍŐKÖKVwPevwÍÁIŰv8ÁwJvAÁvYÖQJEKCCv_c-_üyÁJvÍÁDGÁIÁJPvHMJŰUByNIvHBŐVSIPg
+A Babar 1989-től 2001-ig vetített kanadai–francia televíziós rajzfilmsorozat, amely Jean de Brunhoff 1931-ben megjelent könyvéből készült.
+Test jenkins trigger
+</system-out></testcase></testsuite>
